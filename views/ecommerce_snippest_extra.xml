@@ -1,0 +1,851 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <template id="snippets" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_structure']" position="before">
+                <div id="snippet_custom" class="o_panel">
+                    <div class="o_panel_header">
+                        <span class="fa-stack">
+                            <i class="fa fa-mercury fa-stack-1x"></i>
+                        </span>
+                        Soroush snippets
+                    </div>
+                    <div class="o_panel_body">
+                        <t t-snippet="theme_soroush.s_gallary"
+                           t-thumbnail="/theme_soroush/static/src/img/snippets/s_gallary.png"/>
+
+                        <t t-snippet="theme_soroush.s_slide_banne"
+                           t-thumbnail="/theme_soroush/static/src/img/snippets/s_slide_banne.jpg"/>
+
+                        <t t-snippet="theme_soroush.s_timeline"
+                           t-thumbnail="/theme_soroush/static/src/img/snippets/s_timeline.jpg"/>
+
+                        <t t-snippet="theme_soroush.s_Discount"
+                           t-thumbnail="/theme_soroush/static/src/img/snippets/s_comparison.jpg"/>
+
+                        <t t-snippet="theme_soroush.s_pricing"
+                           t-thumbnail="/theme_soroush/static/src/img/snippets/s_comparison.jpg"/>
+                        <t t-snippet="theme_soroush.s_steps"
+                           t-thumbnail="/theme_soroush/static/src/img/snippets/s_comparison.jpg"/>
+                        <t t-snippet="theme_soroush.s_teams"
+                           t-thumbnail="/theme_soroush/static/src/img/snippets/block_three_columns.png"/>
+                        <t t-snippet="theme_soroush.s_customer"
+                           t-thumbnail="/theme_soroush/static/src/img/snippets/Our_Happy_Customers.png"/>
+
+                    </div>
+                </div>
+            </xpath>
+        </template>
+
+
+        <template id="s_gallary" name="s_gallary">
+            <section>
+                <div class="o_panel_body">
+                    <div class="container">
+                        <div class="custom-gallery row mt16">
+                            <div class="col-md-3 col-sm-4 col-xs-6 ">
+                                <img class="img-responsive"
+                                     src="/theme_soroush/static/src/img/snippet/Free Nature Photo.jpg"
+                                     style="height: 175px; width: 300px;"/>
+                            </div>
+                            <div class="col-md-3 col-sm-4 col-xs-6 ">
+                                <img class="img-responsive"
+                                     src="/theme_soroush/static/src/img/snippet/Grandview_Nature_Preserve.jpg"
+                                     style="height: 175px; width: 300px;"/>
+                            </div>
+                            <div class="col-md-3 col-sm-4 col-xs-6 ">
+                                <img class="img-responsive"
+                                     src="/theme_soroush/static/src/img/snippet/NEC1-300x200.jpg"
+                                     style="height: 175px; width: 300px;"/>
+                            </div>
+                            <div class="col-md-3 col-sm-4 col-xs-6 ">
+                                <img class="img-responsive"
+                                     src="/theme_soroush/static/src/img/snippet/painting_of_nature_by_dhikagraph-d2ynalq.jpg"
+                                     style="height: 175px; width: 300px;"/>
+                            </div>
+                            <div class="col-md-3 col-sm-4 col-xs-6 ">
+                                <img class="img-responsive"
+                                     src="/theme_soroush/static/src/img/snippet/Grandview_Nature_Preserve.jpg"
+                                     style="height: 175px; width: 300px;"/>
+                            </div>
+                            <div class="col-md-3 col-sm-4 col-xs-6 ">
+                                <img class="img-responsive"
+                                     src="/theme_soroush/static/src/img/snippet/painting_of_nature_by_dhikagraph-d2ynalq.jpg"
+                                     style="height: 175px; width: 300px;"/>
+                            </div>
+                            <div class="col-md-3 col-sm-4 col-xs-6 ">
+                                <img class="img-responsive"
+                                     src="/theme_soroush/static/src/img/snippet/Free Nature Photo.jpg"
+                                     style="height: 175px; width: 300px;"/>
+                            </div>
+                            <div class="col-md-3 col-sm-4 col-xs-6 ">
+                                <img class="img-responsive"
+                                     src="/theme_soroush/static/src/img/snippet/NEC1-300x200.jpg"
+                                     style="height: 175px; width: 300px;"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <template id="s_slide_banne" name="s_slide_banne">
+            <section class="header_introduction">
+                <div class="row">
+                    <div class="container">
+                        <div class="col-md-7 text-left second-header-layout">
+                            <!-- HEADING AND BUTTONS -->
+                            <div id="intro-section" class="intro-section">
+
+                                <!-- WELCOM MESSAGE -->
+
+                                <h2 id="intro_section_text_1" class="intro white-text">Quisque convallis ex adum at
+                                    potumu et nulla tristitue.
+                                </h2>
+                                <h5 id="intro_section_text_2" class="white-text">Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. Vestibulum porta diam facilisis mauris tristique commodo. Maecenas
+                                    egestas quam in nulla vestibulum eleid. Duis blandit quis lectus eget at umnas item.
+                                </h5>
+                                <button id="inpage_scroll_btn" class="btn btn-primary standard-button inpage-scroll">
+                                    Read more
+                                </button>                        <!-- /END BUTTON -->
+
+                            </div>
+                            <!-- /END HEADNING AND BUTTONS -->
+                        </div><!-- .col-md-12 or .col-md-7 -->
+                        <div class="col-md-5">
+                            <img class="slide_banne_image"
+                                 src="/theme_soroush/static/src/img/product/car/jaguar-f-type-coupe-2d-silber-2017.png"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <template id="s_timeline" name="s_timeline">
+            <section>
+                <div class="container">
+                    <div class="page-header">
+                        <h1 id="timeline">Timeline</h1>
+                    </div>
+                    <ul class="timeline">
+                        <li>
+                            <div class="timeline-badge">
+                                <i class="fa fa-check-square-o"></i>
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4 class="timeline-title">Mussum ipsum cacilds</h4>
+                                    <p>
+                                        <small class="text-muted">
+                                            <i class="fa fa-check-square-o"></i>
+                                            11 hours ago via Twitter
+                                        </small>
+                                    </p>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá ,
+                                        depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz
+                                        elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis
+                                        leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num
+                                        significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis,
+                                        mais bolis eu num gostis.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-badge warning">
+                                <i class="fa fa-clipboard"></i>
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4 class="timeline-title">Mussum ipsum cacilds</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis.
+                                        Interagi no mé, cursus quis, vehicula ac nisi. Aenean vel dui dui. Nullam leo
+                                        erat, aliquet quis tempus a, posuere ut mi. Ut scelerisque neque et turpis
+                                        posuere pulvinar pellentesque nibh ullamcorper. Pharetra in mattis molestie,
+                                        volutpat elementum justo. Aenean ut ante turpis. Pellentesque laoreet mé vel
+                                        lectus scelerisque interdum cursus velit auctor. Lorem ipsum dolor sit amet,
+                                        consectetur adipiscing elit. Etiam ac mauris lectus, non scelerisque augue.
+                                        Aenean justo massa.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-badge danger">
+                                <i class="fa fa-pie-chart"></i>
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4 class="timeline-title">Mussum ipsum cacilds</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá ,
+                                        depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz
+                                        elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis
+                                        leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num
+                                        significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis,
+                                        mais bolis eu num gostis.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-badge success">
+                                <i class="fa fa-floppy-o"></i>
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4 class="timeline-title">Mussum ipsum cacilds</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis.
+                                        Interagi no mé, cursus quis, vehicula ac nisi. Aenean vel dui dui. Nullam leo
+                                        erat, aliquet quis tempus a, posuere ut mi. Ut scelerisque neque et turpis
+                                        posuere pulvinar pellentesque nibh ullamcorper. Pharetra in mattis molestie,
+                                        volutpat elementum justo. Aenean ut ante turpis. Pellentesque laoreet mé vel
+                                        lectus scelerisque interdum cursus velit auctor. Lorem ipsum dolor sit amet,
+                                        consectetur adipiscing elit. Etiam ac mauris lectus, non scelerisque augue.
+                                        Aenean justo massa.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </template>
+        <template id="s_Discount" name="s_Discount">
+            <section class="oe_snippet_body">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-3">
+                            <div class="dl">
+                                <div class="brand">
+                                    <h2>
+                                        mango
+                                    </h2>
+                                </div>
+                                <div class="discount alizarin">
+                                    30%
+                                    <div class="type">
+                                        off
+                                    </div>
+                                </div>
+                                <div class="descr">
+                                    <strong>
+                                        Mei mucius gloriatur reprimique mollis*.
+                                    </strong>
+                                    Ad sonet perfecto antiopam mei, denique molestie ne has.
+                                </div>
+                                <div class="ends">
+                                    <small>
+                                        * Conditions and restrictions apply.
+                                    </small>
+                                </div>
+                                <div class="coupon midnight-blue">
+                                    <a data-toggle="collapse" href="#code-1" class="open-code">Get a code</a>
+                                    <div id="code-1" class="collapse code">
+                                        LV5MAY14
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <div class="dl">
+                                <div class="brand">
+                                    <h2>
+                                        lacoste
+                                    </h2>
+                                </div>
+                                <div class="discount emerald">
+                                    50%
+                                    <div class="type">
+                                        off
+                                    </div>
+                                </div>
+                                <div class="descr">
+                                    <strong>
+                                        Ea per iuvaret ocurreret*.
+                                    </strong>
+                                    sit ea detraxit menandri mediocritatem, in mel dicant mentitum.
+                                </div>
+                                <div class="ends">
+                                    <small>
+                                        * Conditions and restrictions apply.
+                                    </small>
+                                </div>
+                                <div class="coupon midnight-blue">
+                                    <a data-toggle="collapse" href="#code-2" class="open-code">Get a code</a>
+                                    <div id="code-2" class="collapse in code">
+                                        MNO123ST
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <div class="dl">
+                                <div class="brand">
+                                    <h2>
+                                        converse
+                                    </h2>
+                                </div>
+                                <div class="discount peter-river">
+                                    15%
+                                    <div class="type">
+                                        off
+                                    </div>
+                                </div>
+                                <div class="descr">
+                                    <strong>
+                                        Solet consul tractatos ei pro*.
+                                    </strong>
+                                    Ei mei quot invidunt explicari, placerat percipitur intellegam.
+                                </div>
+                                <div class="ends">
+                                    <small>
+                                        * Conditions and restrictions apply.
+                                    </small>
+                                </div>
+                                <div class="coupon midnight-blue">
+                                    <a data-toggle="collapse" href="#code-3" class="open-code">Get a code</a>
+                                    <div id="code-3" class="collapse code">
+                                        OLV4SY3R
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <div class="dl">
+                                <div class="brand">
+                                    <h2>
+                                        adidas
+                                    </h2>
+                                </div>
+                                <div class="discount amethyst">
+                                    25%
+                                    <div class="type">
+                                        off
+                                    </div>
+                                </div>
+                                <div class="descr">
+                                    <strong>
+                                        Cu aliquip persius alterum duo*.
+                                    </strong>
+                                    Possit equidem disputando usu et, sea invidunt scriptorem in.
+                                </div>
+                                <div class="ends">
+                                    <small>
+                                        * Conditions and restrictions apply.
+                                    </small>
+                                </div>
+                                <div class="coupon midnight-blue">
+                                    <a data-toggle="collapse" href="#code-4" class="open-code">Get a code</a>
+                                    <div id="code-4" class="collapse code">
+                                        ZUY4OPLQ
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <template id="s_pricing" name="s_pricing">
+            <section class="oe_snippet_body">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+
+                            <!-- PRICE ITEM -->
+                            <div class="panel price panel-red">
+                                <div class="panel-heading  text-center">
+                                    <h3>PRO PLAN</h3>
+                                </div>
+                                <div class="panel-body text-center">
+                                    <p class="lead" style="font-size:40px">
+                                        <strong>$10 / month</strong>
+                                    </p>
+                                </div>
+                                <ul class="list-group list-group-flush text-center">
+                                    <li class="list-group-item">
+                                        <i class="icon-ok text-danger"></i>
+                                        Personal use
+                                    </li>
+                                    <li class="list-group-item">
+                                        <i class="icon-ok text-danger"></i>
+                                        Unlimited projects
+                                    </li>
+                                    <li class="list-group-item">
+                                        <i class="icon-ok text-danger"></i>
+                                        27/7 support
+                                    </li>
+                                </ul>
+                                <div class="panel-footer">
+                                    <a class="btn btn-lg btn-block btn-danger" href="#">BUY NOW!</a>
+                                </div>
+                            </div>
+                            <!-- /PRICE ITEM -->
+                        </div>
+
+                        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+
+                            <!-- PRICE ITEM -->
+                            <div class="panel price panel-blue">
+                                <div class="panel-heading arrow_box text-center">
+                                    <h3>DEV PLAN</h3>
+                                </div>
+                                <div class="panel-body text-center">
+                                    <p class="lead" style="font-size:40px">
+                                        <strong>$20 / month</strong>
+                                    </p>
+                                </div>
+                                <ul class="list-group list-group-flush text-center">
+                                    <li class="list-group-item">
+                                        <i class="icon-ok text-info"></i>
+                                        Personal use
+                                    </li>
+                                    <li class="list-group-item">
+                                        <i class="icon-ok text-info"></i>
+                                        Unlimited projects
+                                    </li>
+                                    <li class="list-group-item">
+                                        <i class="icon-ok text-info"></i>
+                                        27/7 support
+                                    </li>
+                                </ul>
+                                <div class="panel-footer">
+                                    <a class="btn btn-lg btn-block btn-info" href="#">BUY NOW!</a>
+                                </div>
+                            </div>
+                            <!-- /PRICE ITEM -->
+
+
+                        </div>
+
+                        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+
+                            <!-- PRICE ITEM -->
+                            <div class="panel price panel-green">
+                                <div class="panel-heading arrow_box text-center">
+                                    <h3>FREE PLAN</h3>
+                                </div>
+                                <div class="panel-body text-center">
+                                    <p class="lead" style="font-size:40px">
+                                        <strong>$0 / month</strong>
+                                    </p>
+                                </div>
+                                <ul class="list-group list-group-flush text-center">
+                                    <li class="list-group-item">
+                                        <i class="icon-ok text-success"></i>
+                                        Personal use
+                                    </li>
+                                    <li class="list-group-item">
+                                        <i class="icon-ok text-success"></i>
+                                        Unlimited projects
+                                    </li>
+                                    <li class="list-group-item">
+                                        <i class="icon-ok text-success"></i>
+                                        27/7 support
+                                    </li>
+                                </ul>
+                                <div class="panel-footer">
+                                    <a class="btn btn-lg btn-block btn-success" href="#">BUY NOW!</a>
+                                </div>
+                            </div>
+                            <!-- /PRICE ITEM -->
+
+
+                        </div>
+
+                        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+
+                            <!-- PRICE ITEM -->
+                            <div class="panel price panel-grey">
+                                <div class="panel-heading arrow_box text-center">
+                                    <h3>FREE PLAN</h3>
+                                </div>
+                                <div class="panel-body text-center">
+                                    <p class="lead" style="font-size:40px">
+                                        <strong>$0 / month</strong>
+                                    </p>
+                                </div>
+                                <ul class="list-group list-group-flush text-center">
+                                    <li class="list-group-item">
+                                        <i class="icon-ok text-success"></i>
+                                        Personal use
+                                    </li>
+                                    <li class="list-group-item">
+                                        <i class="icon-ok text-success"></i>
+                                        Unlimited projects
+                                    </li>
+                                    <li class="list-group-item">
+                                        <i class="icon-ok text-success"></i>
+                                        27/7 support
+                                    </li>
+                                </ul>
+                                <div class="panel-footer">
+                                    <a class="btn btn-lg btn-block btn-primary" href="#">BUY NOW!</a>
+                                </div>
+                            </div>
+                            <!-- /PRICE ITEM -->
+
+
+                        </div>
+
+                        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+
+                            <!-- PRICE ITEM -->
+                            <div class="panel price panel-white">
+                                <div class="panel-heading arrow_box text-center">
+                                    <h3>FREE PLAN</h3>
+                                </div>
+                                <div class="panel-body text-center">
+                                    <p class="lead" style="font-size:40px">
+                                        <strong>$0 / month</strong>
+                                    </p>
+                                </div>
+                                <ul class="list-group list-group-flush text-center">
+                                    <li class="list-group-item">
+                                        <i class="icon-ok text-success"></i>
+                                        Personal use
+                                    </li>
+                                    <li class="list-group-item">
+                                        <i class="icon-ok text-success"></i>
+                                        Unlimited projects
+                                    </li>
+                                    <li class="list-group-item">
+                                        <i class="icon-ok text-success"></i>
+                                        27/7 support
+                                    </li>
+                                </ul>
+                                <div class="panel-footer">
+                                    <a class="btn btn-lg btn-block btn-default" href="#">BUY NOW!</a>
+                                </div>
+                            </div>
+                            <!-- /PRICE ITEM -->
+
+
+                        </div>
+
+                        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+
+                            <!-- PRICE ITEM -->
+                            <div class="panel price panel-white">
+                                <div class="panel-heading arrow_box text-center">
+                                    <h3>FREE PLAN</h3>
+                                </div>
+                                <div class="panel-body text-center">
+                                    <p class="lead" style="font-size:40px">
+                                        <strong>$0 / month</strong>
+                                    </p>
+                                </div>
+                                <ul class="list-group list-group-flush text-center">
+                                    <li class="list-group-item">
+                                        <i class="icon-ok text-success"></i>
+                                        Personal use
+                                    </li>
+                                    <li class="list-group-item">
+                                        <i class="icon-ok text-success"></i>
+                                        Unlimited projects
+                                    </li>
+                                    <li class="list-group-item">
+                                        <i class="icon-ok text-success"></i>
+                                        27/7 support
+                                    </li>
+                                </ul>
+                                <div class="panel-footer">
+                                    <a class="btn btn-lg btn-block btn-default" href="#">BUY NOW!</a>
+                                </div>
+                            </div>
+                            <!-- /PRICE ITEM -->
+
+
+                        </div>
+
+                        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+
+                            <!-- PRICE ITEM -->
+                            <div class="panel price panel-white">
+                                <div class="panel-heading arrow_box text-center">
+                                    <h3>FREE PLAN</h3>
+                                </div>
+                                <div class="panel-body text-center">
+                                    <p class="lead" style="font-size:40px">
+                                        <strong>$0 / month</strong>
+                                    </p>
+                                </div>
+                                <ul class="list-group list-group-flush text-center">
+                                    <li class="list-group-item">
+                                        <i class="icon-ok text-success"></i>
+                                        Personal use
+                                    </li>
+                                    <li class="list-group-item">
+                                        <i class="icon-ok text-success"></i>
+                                        Unlimited projects
+                                    </li>
+                                    <li class="list-group-item">
+                                        <i class="icon-ok text-success"></i>
+                                        27/7 support
+                                    </li>
+                                </ul>
+                                <div class="panel-footer">
+                                    <a class="btn btn-lg btn-block btn-default" href="#">BUY NOW!</a>
+                                </div>
+                            </div>
+                            <!-- /PRICE ITEM -->
+
+
+                        </div>
+
+                        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+
+                            <!-- PRICE ITEM -->
+                            <div class="panel price panel-white">
+                                <div class="panel-heading arrow_box text-center">
+                                    <h3>FREE PLAN</h3>
+                                </div>
+                                <div class="panel-body text-center">
+                                    <p class="lead" style="font-size:40px">
+                                        <strong>$0 / month</strong>
+                                    </p>
+                                </div>
+                                <ul class="list-group list-group-flush text-center">
+                                    <li class="list-group-item">
+                                        <i class="icon-ok text-success"></i>
+                                        Personal use
+                                    </li>
+                                    <li class="list-group-item">
+                                        <i class="icon-ok text-success"></i>
+                                        Unlimited projects
+                                    </li>
+                                    <li class="list-group-item">
+                                        <i class="icon-ok text-success"></i>
+                                        27/7 support
+                                    </li>
+                                </ul>
+                                <div class="panel-footer">
+                                    <a class="btn btn-lg btn-block btn-default" href="#">BUY NOW!</a>
+                                </div>
+                            </div>
+                            <!-- /PRICE ITEM -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+
+        <template id="s_steps" name="s_steps">
+            <section class="oe_snippet_body">
+                <div class="container">
+                    <div id="our_services_wrap" class="services-wrap azera_shop_grid azera_shop_grid_fbxxRO67Hk">
+                        <div class="azera_shop_grid_col_3 azera_shop_grid_column_1 azera_shop_grid_first ">
+                            <div class="service-box" azera_shopgrid-attr="this-0">
+                                <div class="single-service border-bottom-hover">
+                                    <div class="service-icon colored-text">
+                                        <i class="fa fa-diamond"></i>
+                                    </div>
+                                    <h3 class="colored-text">Premium Quality</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum porta diam
+                                        facilisis mauris tristique commodo. Maecenas egestas quam in nulla vestibulum
+                                        eleid. Duis blandit quis lectus eget.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="azera_shop_grid_col_3 azera_shop_grid_column_2  ">
+                            <div class="service-box" azera_shopgrid-attr="this-1">
+                                <div class="single-service border-bottom-hover">
+                                    <div class="service-icon colored-text">
+                                        <i class="fa fa-clock-o"></i>
+                                    </div>
+                                    <h3 class="colored-text">Fast Delivery</h3>
+                                    <p>Donec nec elit ac mi molestie maximus upto id a diam. Aenean metus eros,
+                                        imperdiet in purus a, dignissim euismod libero. Aenean massa metus, imperdiet
+                                        eget dignissim vitae, egestas id ipsum id a diam.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="azera_shop_grid_col_3 azera_shop_grid_column_3 azera_shop_grid_last ">
+                            <div class="service-box" azera_shopgrid-attr="this-2">
+                                <div class="single-service border-bottom-hover">
+                                    <div class="service-icon colored-text">
+                                        <i class="fa fa-briefcase"></i>
+                                    </div>
+                                    <h3 class="colored-text">Custom Work</h3>
+                                    <p>Nunc a pretium risus, vel gravida augue. Integer vulputate, mi in tempor
+                                        consequat, ex ligula consectetur sapien, eu facilisis lacus massa vel ex.
+                                        Atus ad lubim ret potis ist asum
+                                        al ficus dominus tereum.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+
+
+        <template id="s_teams" name="s_teams">
+
+            <section class="team oe_snippet_body " id="team" role="region" aria-label="'Team"
+                     style="background:url(/theme_soroush/static/src/img/snippet/are-you-all-right.jpg);">
+                <div class="section-overlay-layer container">
+
+                    <div class="section-header">
+                        <h2 class="dark-text">Our Team</h2>
+                        <div class="colored-line"></div>
+                        <div class="sub-heading">Fusce efficitur arcu id bibendum suscipit. Etiam ac suscipit sapien.
+                        </div>
+                    </div>
+                    <div class="row team-member-wrap">
+                        <div class="col-md-3 team-member-box">
+                            <div class="team-member border-bottom-hover">
+                                <div class="member-pic">
+                                    <img src="/theme_soroush/static/src/img/snippet/1.jpg" alt="Albert Jacobs"/>
+                                </div><!-- .member-pic -->
+
+                                <div class="member-details">
+                                    <div class="member-details-inner">
+                                        <h5 class="colored-text">Albert Jacobs</h5>
+                                        <div class="small-text">Founder &amp; CEO</div>
+                                    </div><!-- .member-details-inner -->
+                                </div><!-- .member-details -->
+                            </div><!-- .team-member -->
+                        </div><!-- .team-member -->
+                        <!-- MEMBER -->
+                        <div class="col-md-3 team-member-box">
+                            <div class="team-member border-bottom-hover">
+                                <div class="member-pic">
+                                    <img src="/theme_soroush/static/src/img/snippet/2.jpg" alt="Tonya Garcia"/>
+                                </div><!-- .member-pic -->
+
+                                <div class="member-details">
+                                    <div class="member-details-inner">
+                                        <h5 class="colored-text">Tonya Garcia</h5>
+                                        <div class="small-text">Account Manager</div>
+                                    </div><!-- .member-details-inner -->
+                                </div><!-- .member-details -->
+                            </div><!-- .team-member -->
+                        </div><!-- .team-member -->
+                        <!-- MEMBER -->
+                        <div class="col-md-3 team-member-box">
+                            <div class="team-member border-bottom-hover">
+                                <div class="member-pic">
+                                    <img src="/theme_soroush/static/src/img/snippet/3.jpg" alt="Linda Guthrie"/>
+                                </div><!-- .member-pic -->
+
+                                <div class="member-details">
+                                    <div class="member-details-inner">
+                                        <h5 class="colored-text">Linda Guthrie</h5>
+                                        <div class="small-text">Business Development</div>
+                                    </div><!-- .member-details-inner -->
+                                </div><!-- .member-details -->
+                            </div><!-- .team-member -->
+                        </div><!-- .team-member -->
+                        <!-- MEMBER -->
+                    </div>
+
+                </div><!-- container  -->
+            </section>
+
+        </template>
+        <template id="s_customer" name="s_customer">
+            <section class="testimonials " id="customers" role="region" aria-label="Testimonials">
+                <div class="section-overlay-layer">
+                    <div class="container">
+
+                        <!-- SECTION HEADER -->
+                        <div class="section-header">
+                            <h2 class="dark-text">Our Happy Customers</h2>
+                            <div class="colored-line"></div>
+                            <div class="sub-heading">Aliquam ultricies ligula vel mi vulputate tempor.</div>
+                        </div>
+                        <div id="happy_customers_wrap"
+                             class="testimonials-wrap azera_shop_grid azera_shop_grid_kyjFuj7m4s">
+                            <div class="azera_shop_grid_col_3 azera_shop_grid_column_1 azera_shop_grid_first ">
+                                <div class="testimonials-box" azera_shopgrid-attr="this-0">
+                                    <div class="feedback border-bottom-hover">
+                                        <div class="pic-container">
+                                            <div class="pic-container-inner">
+                                                <img src="/theme_soroush/static/src/img/snippet/mmman-540500_640.jpg"
+                                                     alt="John Smith"/>
+                                            </div>
+                                        </div>
+                                        <div class="feedback-text-wrap">
+                                            <h5 class="colored-text">
+                                                John Smith
+                                            </h5>
+                                            <div class="small-text">
+                                                Lorem ipsum
+                                            </div>
+                                            <p>
+                                                Vestibulum porta diam facilisis mauris tristique ad utam er matus ani.
+                                                commodo. Maecenas egestas quam in nulla vestibulum eleid. Duisamus
+                                                blandit quis lectus eget.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="azera_shop_grid_col_3 azera_shop_grid_column_2  ">
+                                <div class="testimonials-box" azera_shopgrid-attr="this-1">
+                                    <div class="feedback border-bottom-hover">
+                                        <div class="pic-container">
+                                            <div class="pic-container-inner">
+                                                <img src="/theme_soroush/static/src/img/snippet/boy-1252987_640.jpg"
+                                                     alt="Ana James"/>
+                                            </div>
+                                        </div>
+                                        <div class="feedback-text-wrap">
+                                            <h5 class="colored-text">
+                                                Ana James
+                                            </h5>
+                                            <div class="small-text">
+                                                Lorem ipsum
+                                            </div>
+                                            <p>
+                                                Fusce pellentesque felis et ornare maximus. Pellentesque vel auctor
+                                                jArmadales ex, ut luctus neque saat ullamcorper, sollicitudin lacus in,
+                                                varius risus.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="azera_shop_grid_col_3 azera_shop_grid_column_3 azera_shop_grid_last ">
+                                <div class="testimonials-box" azera_shopgrid-attr="this-2">
+                                    <div class="feedback border-bottom-hover">
+                                        <div class="pic-container">
+                                            <div class="pic-container-inner">
+                                                <img src="/theme_soroush/static/src/img/snippet/mmmman-540500_640.jpg"
+                                                     alt="Diane Elle"/>
+                                            </div>
+                                        </div>
+                                        <div class="feedback-text-wrap">
+                                            <h5 class="colored-text">
+                                                Diane Elle
+                                            </h5>
+                                            <div class="small-text">
+                                                Lorem ipsum
+                                            </div>
+                                            <p>
+                                                Morbi erat mi, mattis sit amet nisl non, sollicitudin rh ut estim oncus
+                                                sapien. Integer scelerisque ipsum sem, nec sodales arcu mattis vitae.
+                                                Morbi quis euismod massa.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+    </data>
+</openerp>
