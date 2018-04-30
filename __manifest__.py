@@ -17,7 +17,7 @@
     ],
     'images': [
         'static/description/cover.png',
-        'static/description/theme_default_screenshot.jpg',
+        'static/description/theme-soroush.jpg',
     ],
     'application': False,
 }
