@@ -32,15 +32,17 @@
                 <tr>
                     <td>
                         <label class="chd-color-combi">
-                            <img src="/theme_soroush/static/src/img/snippets/style1.png" alt="style1"
-                                 class="chd-color-combi-img"/>
+						<div>
+                            Style 1
+							</div>
                             <input name="stylevar" type="radio" data-xmlid="theme_soroush.Soroush_style_1"/>
                         </label>
                     </td>
                     <td>
                         <label class="chd-color-combi">
-                            <img src="/theme_soroush/static/src/img/snippets/style2.png" alt="style2"
-                                 class="chd-color-combi-img"/>
+						<div>
+                            Style 2
+							</div>
                             <input name="stylevar" type="radio" data-xmlid="theme_soroush.Soroush_style_2"/>
                         </label>
                     </td>

@@ -1,6 +1,41 @@
-.container{
- background: #0B2E59!important;
+#soroush_header .navbar{
+ margin-bottom: 0 !important;
+ border: none;
+ background: #fff;
+ -webkit-box-shadow: 0 2px 8px 0 rgba(50, 50, 50, 0.08);
+ box-shadow: 0 2px 8px 0 rgba(50, 50, 50, 0.08);
+ font-weight: 400;
+ -webkit-backface-visibility: hidden;
 }
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+ display: table-cell;
+ vertical-align: middle;
+}
+#soroush_header .container{
 
+ padding: 20px 0;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{
+ color:@link-color;
+ background-color: inherit;
+}
+ .navbar-default .navbar-nav  a:focus{
 
+ outline: 1px dotted @link-color;
 
+}
+.navbar-default .navbar-nav > li > a{
+ font-size:16px ;
+ font-weight: bold;
+}
+.o_main_navbar > ul > li > a:hover{
+ background-color: @link-hover-color!important;
+
+}
+.o_main_navbar{
+ background-color:@link-color;
+ border:none;
+}
+#oe_main_menu_navbar .o_menu_systray a[data-action="edit"], #oe_main_menu_navbar .o_menu_systray a[data-action="translate"], #oe_main_menu_navbar .o_menu_systray a.css_edit_dynamic{
+ background-color:@link-color;
+}
