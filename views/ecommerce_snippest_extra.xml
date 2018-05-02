@@ -14,9 +14,6 @@
                         <t t-snippet="theme_soroush.s_gallary"
                            t-thumbnail="/theme_soroush/static/src/img/snippets/s_gallary.png"/>
 
-                        <t t-snippet="theme_soroush.s_slide_banne"
-                           t-thumbnail="/theme_soroush/static/src/img/snippets/s_slide_banne.jpg"/>
-
                         <t t-snippet="theme_soroush.s_timeline"
                            t-thumbnail="/theme_soroush/static/src/img/snippets/s_timeline.jpg"/>
 
@@ -88,38 +85,7 @@
                 </div>
             </section>
         </template>
-        <template id="s_slide_banne" name="s_slide_banne">
-            <section class="header_introduction">
-                <div class="row">
-                    <div class="container">
-                        <div class="col-md-7 text-left second-header-layout">
-                            <!-- HEADING AND BUTTONS -->
-                            <div id="intro-section" class="intro-section">
 
-                                <!-- WELCOM MESSAGE -->
-
-                                <h2 id="intro_section_text_1" class="intro white-text">Quisque convallis ex adum at
-                                    potumu et nulla tristitue.
-                                </h2>
-                                <h5 id="intro_section_text_2" class="white-text">Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit. Vestibulum porta diam facilisis mauris tristique commodo. Maecenas
-                                    egestas quam in nulla vestibulum eleid. Duis blandit quis lectus eget at umnas item.
-                                </h5>
-                                <button id="inpage_scroll_btn" class="btn btn-primary standard-button inpage-scroll">
-                                    Read more
-                                </button>                        <!-- /END BUTTON -->
-
-                            </div>
-                            <!-- /END HEADNING AND BUTTONS -->
-                        </div><!-- .col-md-12 or .col-md-7 -->
-                        <div class="col-md-5">
-                            <img class="slide_banne_image"
-                                 src="/theme_soroush/static/src/img/product/car/jaguar-f-type-coupe-2d-silber-2017.png"/>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </template>
         <template id="s_timeline" name="s_timeline">
             <section>
                 <div class="container">

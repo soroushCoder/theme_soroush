@@ -11,8 +11,7 @@
 	'author':'Soroush Ebadi',
     'data': [
         'data/theme_default_data.xml',
-        'views/theme_default_templates.xml',
-        'views/pages.xml',
+        'views/theme_default_templates.xml',  
         'views/ecommerce_snippest_extra.xml'
     ],
     'images': [

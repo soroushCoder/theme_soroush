@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="590129ee-7924-4542-98d2-38fba87c5bcb" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/static/src/css/custom.css" afterPath="$PROJECT_DIR$/static/src/css/custom.css" />
-      <change beforePath="$PROJECT_DIR$/static/src/css/main.css" afterPath="$PROJECT_DIR$/static/src/css/main.css" />
-      <change beforePath="$PROJECT_DIR$/static/src/less/snippet.less" afterPath="$PROJECT_DIR$/static/src/less/snippet.less" />
-      <change beforePath="$PROJECT_DIR$/static/src/less/soroush_style_1.less" afterPath="$PROJECT_DIR$/static/src/less/soroush_style_1.less" />
+      <change beforePath="$PROJECT_DIR$/views/ecommerce_snippest_extra.xml" afterPath="$PROJECT_DIR$/views/ecommerce_snippest_extra.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,31 +17,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="__manifest__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/__manifest__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="47" lean-forward="true" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="theme_default_templates.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/theme_default_templates.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="200" column="91" lean-forward="false" selection-start-line="200" selection-start-column="91" selection-end-line="200" selection-end-column="91" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="custom.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/src/css/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="5606" column="15" lean-forward="false" selection-start-line="5606" selection-start-column="4" selection-end-line="5606" selection-end-column="15" />
+            <state relative-caret-position="21">
+              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="animate.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/src/css/animate.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -52,8 +40,38 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/src/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="274" column="15" lean-forward="false" selection-start-line="274" selection-start-column="15" selection-end-line="274" selection-end-column="15" />
+            <state relative-caret-position="5964">
+              <caret line="284" column="2" lean-forward="false" selection-start-line="284" selection-start-column="2" selection-end-line="284" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="price-range.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/src/css/price-range.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="responsive.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/src/css/responsive.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pages.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/pages.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -69,11 +87,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="snippet.less" pinned="false" current-in-tab="true">
+      <file leaf-file-name="snippet.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/src/less/snippet.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="129" column="15" lean-forward="false" selection-start-line="129" selection-start-column="4" selection-end-line="129" selection-end-column="15" />
+            <state relative-caret-position="176">
+              <caret line="130" column="24" lean-forward="true" selection-start-line="130" selection-start-column="24" selection-end-line="130" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ecommerce_snippest_extra.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/ecommerce_snippest_extra.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="124">
+              <caret line="14" column="95" lean-forward="false" selection-start-line="14" selection-start-column="95" selection-end-line="14" selection-end-column="95" />
               <folding />
             </state>
           </provider>
@@ -84,16 +112,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="294">
               <caret line="34" column="11" lean-forward="false" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="soroush_style.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/src/less/soroush_style.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -120,6 +138,8 @@
       <find>option_color_emerald</find>
       <find>.navbar-default .navbar-nav &gt; li:hover &gt; a :before</find>
       <find>.pull-right</find>
+      <find>jaguar-f-type-</find>
+      <find>s_slide_banne</find>
       <find>font-family</find>
     </findStrings>
   </component>
@@ -133,9 +153,10 @@
         <option value="$PROJECT_DIR$/views/theme_default_templates.xml" />
         <option value="$PROJECT_DIR$/static/src/less/CommonStyle.less" />
         <option value="$PROJECT_DIR$/static/src/less/soroush_style_1.less" />
-        <option value="$PROJECT_DIR$/static/src/css/custom.css" />
         <option value="$PROJECT_DIR$/static/src/css/main.css" />
         <option value="$PROJECT_DIR$/static/src/less/snippet.less" />
+        <option value="$PROJECT_DIR$/views/ecommerce_snippest_extra.xml" />
+        <option value="$PROJECT_DIR$/static/src/css/custom.css" />
       </list>
     </option>
   </component>
@@ -196,6 +217,13 @@
               <item name="theme_soroush" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="theme_soroush" type="b2602c69:ProjectViewProjectNode" />
+              <item name="theme_soroush" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="less" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -243,18 +271,17 @@
       <updated>1519914998282</updated>
       <workItem from="1519915000589" duration="31000" />
       <workItem from="1525175064970" duration="599000" />
-      <workItem from="1525177370227" duration="9069000" />
+      <workItem from="1525177370227" duration="9996000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9699000" />
+    <option name="totallyTimeSpent" value="10626000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1384" height="736" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25036603" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25036603" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -324,26 +351,66 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/static/src/less/snippet.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="130" column="24" lean-forward="true" selection-start-line="130" selection-start-column="24" selection-end-line="130" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/ecommerce_snippest_extra.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="14" column="95" lean-forward="false" selection-start-line="14" selection-start-column="95" selection-end-line="14" selection-end-column="95" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/static/src/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="5606" column="15" lean-forward="false" selection-start-line="5606" selection-start-column="4" selection-end-line="5606" selection-end-column="15" />
+        <state relative-caret-position="21">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/src/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="274" column="15" lean-forward="false" selection-start-line="274" selection-start-column="15" selection-end-line="274" selection-end-column="15" />
+        <state relative-caret-position="5964">
+          <caret line="284" column="2" lean-forward="false" selection-start-line="284" selection-start-column="2" selection-end-line="284" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/src/less/snippet.less">
+    <entry file="file://$PROJECT_DIR$/static/src/css/animate.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="129" column="15" lean-forward="false" selection-start-line="129" selection-start-column="4" selection-end-line="129" selection-end-column="15" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/src/css/price-range.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/src/css/responsive.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/pages.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
           <folding />
         </state>
       </provider>
