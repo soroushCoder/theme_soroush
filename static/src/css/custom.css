@@ -143,7 +143,7 @@ div.job_cover {
     border: medium none;
     color: #696763;
     display: block;
-    font-family: 'Roboto', sans-serif;
+
     font-size: 14px;
     font-weight: 300;
     height: 40px;
@@ -231,7 +231,7 @@ template {
     display: none
 }
 html {
-    font-family: sans-serif;
+
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%
 }
@@ -459,7 +459,7 @@ html {
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
 }
 body {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
     font-size: 14px;
     line-height: 1.428571429;
     color: #333;
@@ -541,7 +541,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
     font-weight: 500;
     line-height: 1.1;
     color: inherit
@@ -825,12 +825,7 @@ address {
     font-style: normal;
     line-height: 1.428571429
 }
-code,
-kbd,
-pre,
-samp {
-    font-family: Menlo, Monaco, Consolas, "Courier New", monospace
-}
+
 code {
     padding: 2px 4px;
     font-size: 90%;
@@ -5694,11 +5689,8 @@ button.close {
     margin-right: auto;
     margin-left: auto
 }
-.pull-right {
-    float: right!important
-}
-.pull-left {
-    float: left!important
+ul .wizard.pull-right{
+    float: left!important;
 }
 .hide {
     display: none!important
