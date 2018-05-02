@@ -4168,12 +4168,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
     color: #5e5e5e;
     background-color: transparent
 }
-.navbar-default .navbar-text {
-    color: #777
-}
-.navbar-default .navbar-nav>li>a {
-    color: #777
-}
+
 .navbar-default .navbar-nav>li>a:hover,
 .navbar-default .navbar-nav>li>a:focus {
     color: #333;
@@ -4183,7 +4178,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     color: #555;
-    background-color: #e7e7e7
+   
 }
 .navbar-default .navbar-nav>.disabled>a,
 .navbar-default .navbar-nav>.disabled>a:hover,
@@ -4383,18 +4378,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 .pagination>li>span:focus {
     background-color: #eee
 }
-.pagination>.active>a,
-.pagination>.active>span,
-.pagination>.active>a:hover,
-.pagination>.active>span:hover,
-.pagination>.active>a:focus,
-.pagination>.active>span:focus {
-    z-index: 2;
-    color: #fff;
-    cursor: default;
-    background-color: #428bca;
-    border-color: #428bca
-}
+
 .pagination>.disabled>span,
 .pagination>.disabled>span:hover,
 .pagination>.disabled>span:focus,

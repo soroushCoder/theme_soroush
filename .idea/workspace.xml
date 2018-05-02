@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="590129ee-7924-4542-98d2-38fba87c5bcb" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/static/src/less/soroush_style.less" afterPath="$PROJECT_DIR$/static/src/less/soroush_style.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/src/less/CommonStyle.less" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/static/src/css/custom.css" afterPath="$PROJECT_DIR$/static/src/css/custom.css" />
+      <change beforePath="$PROJECT_DIR$/views/theme_default_templates.xml" afterPath="$PROJECT_DIR$/views/theme_default_templates.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,8 +32,28 @@
       <file leaf-file-name="theme_default_templates.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/theme_default_templates.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="164" column="20" lean-forward="true" selection-start-line="164" selection-start-column="20" selection-end-line="164" selection-end-column="20" />
+            <state relative-caret-position="219">
+              <caret line="200" column="91" lean-forward="false" selection-start-line="200" selection-start-column="91" selection-end-line="200" selection-end-column="91" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="custom.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/static/src/css/custom.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="4180" column="3" lean-forward="false" selection-start-line="4180" selection-start-column="3" selection-end-line="4180" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CommonStyle.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/src/less/CommonStyle.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="16" column="21" lean-forward="false" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -39,14 +62,14 @@
       <file leaf-file-name="soroush_style_1.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/src/less/soroush_style_1.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-669">
-              <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+            <state relative-caret-position="105">
+              <caret line="44" column="21" lean-forward="true" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="soroush_style.less" pinned="false" current-in-tab="true">
+      <file leaf-file-name="soroush_style.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/src/less/soroush_style.less">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="189">
@@ -58,10 +81,21 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Less File" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>.css&quot;</find>
       <find>Soroush_style</find>
+      <find>background-color: #428bca;</find>
+      <find>.pagination&gt;.active&gt;a</find>
+      <find>website.assets_frontend</find>
+      <find>.navbar-default .navbar-nav&gt;li&gt;a</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -70,8 +104,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/views/theme_default_templates.xml" />
         <option value="$PROJECT_DIR$/static/src/less/soroush_style.less" />
+        <option value="$PROJECT_DIR$/views/theme_default_templates.xml" />
+        <option value="$PROJECT_DIR$/static/src/less/CommonStyle.less" />
+        <option value="$PROJECT_DIR$/static/src/css/custom.css" />
       </list>
     </option>
   </component>
@@ -143,6 +179,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="list.type.of.created.stylesheet" value="Less" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -171,12 +208,12 @@
       <updated>1519914998282</updated>
       <workItem from="1519915000589" duration="31000" />
       <workItem from="1525175064970" duration="599000" />
-      <workItem from="1525177370227" duration="3206000" />
+      <workItem from="1525177370227" duration="4341000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3836000" />
+    <option name="totallyTimeSpent" value="4971000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1384" height="736" extended-state="6" />
@@ -220,26 +257,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/theme_default_templates.xml">
+    <entry file="file://$PROJECT_DIR$/static/src/less/soroush_style.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="164" column="20" lean-forward="true" selection-start-line="164" selection-start-column="20" selection-end-line="164" selection-end-column="20" />
+        <state relative-caret-position="189">
+          <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/src/less/soroush_style_1.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-669">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        <state relative-caret-position="105">
+          <caret line="44" column="21" lean-forward="true" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/src/less/soroush_style.less">
+    <entry file="file://$PROJECT_DIR$/views/theme_default_templates.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        <state relative-caret-position="219">
+          <caret line="200" column="91" lean-forward="false" selection-start-line="200" selection-start-column="91" selection-end-line="200" selection-end-column="91" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/src/less/CommonStyle.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="21" lean-forward="false" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/src/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="4180" column="3" lean-forward="false" selection-start-line="4180" selection-start-column="3" selection-end-line="4180" selection-end-column="3" />
           <folding />
         </state>
       </provider>
