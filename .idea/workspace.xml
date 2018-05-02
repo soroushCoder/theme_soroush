@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="590129ee-7924-4542-98d2-38fba87c5bcb" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/src/less/CommonStyle.less" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/static/src/css/custom.css" afterPath="$PROJECT_DIR$/static/src/css/custom.css" />
-      <change beforePath="$PROJECT_DIR$/views/theme_default_templates.xml" afterPath="$PROJECT_DIR$/views/theme_default_templates.xml" />
+      <change beforePath="$PROJECT_DIR$/static/src/less/CommonStyle.less" afterPath="$PROJECT_DIR$/static/src/less/CommonStyle.less" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -42,8 +40,8 @@
       <file leaf-file-name="custom.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/static/src/css/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="4180" column="3" lean-forward="false" selection-start-line="4180" selection-start-column="3" selection-end-line="4180" selection-end-column="3" />
+            <state relative-caret-position="247">
+              <caret line="6169" column="9" lean-forward="false" selection-start-line="6169" selection-start-column="9" selection-end-line="6169" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -52,8 +50,18 @@
       <file leaf-file-name="CommonStyle.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/src/less/CommonStyle.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="16" column="21" lean-forward="false" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+            <state relative-caret-position="252">
+              <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="snippet.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/src/less/snippet.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -96,6 +104,8 @@
       <find>.pagination&gt;.active&gt;a</find>
       <find>website.assets_frontend</find>
       <find>.navbar-default .navbar-nav&gt;li&gt;a</find>
+      <find>.navbar-default .navbar-nav&gt;.active&gt;a</find>
+      <find>option_color_emerald</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -208,12 +218,12 @@
       <updated>1519914998282</updated>
       <workItem from="1519915000589" duration="31000" />
       <workItem from="1525175064970" duration="599000" />
-      <workItem from="1525177370227" duration="4341000" />
+      <workItem from="1525177370227" duration="6018000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4971000" />
+    <option name="totallyTimeSpent" value="6648000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1384" height="736" extended-state="6" />
@@ -283,16 +293,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static/src/less/CommonStyle.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="21" lean-forward="false" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        <state relative-caret-position="252">
+          <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/src/less/snippet.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/src/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="4180" column="3" lean-forward="false" selection-start-line="4180" selection-start-column="3" selection-end-line="4180" selection-end-column="3" />
+        <state relative-caret-position="247">
+          <caret line="6169" column="9" lean-forward="false" selection-start-line="6169" selection-start-column="9" selection-end-line="6169" selection-end-column="9" />
           <folding />
         </state>
       </provider>

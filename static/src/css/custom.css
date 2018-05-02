@@ -4178,7 +4178,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     color: #555;
-   
+
 }
 .navbar-default .navbar-nav>.disabled>a,
 .navbar-default .navbar-nav>.disabled>a:hover,
@@ -6150,3 +6150,30 @@ td.visible-print {
         display: none!important
     }
 }
+
+ul.wizard{
+
+    box-shadow:none!important;
+    -webkit-box-shadow:none!important;
+}
+ul.wizard li{
+
+    border:0 !important;
+    background-color: inherit!important;
+}
+ul.wizard li .chevron:before{
+    border-left: 10px solid #fff!important;
+}
+ul.wizard li .chevron{
+
+    position: absolute;
+    top: 10px;
+    right: -10px;
+    z-index: 1;
+    display: block;
+    border: 10px solid transparent;
+    border-right: 0;
+    border-left: 5px solid #d4d4d4;
+}
+
+
