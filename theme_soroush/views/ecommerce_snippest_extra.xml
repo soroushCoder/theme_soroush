@@ -14,17 +14,12 @@
                         <t t-snippet="theme_soroush.s_gallary"
                            t-thumbnail="/theme_soroush/static/src/img/snippets/s_gallary.png"/>
 
-                        <t t-snippet="theme_soroush.s_slide_banne"
-                           t-thumbnail="/theme_soroush/static/src/img/snippets/s_slide_banne.jpg"/>
-
                         <t t-snippet="theme_soroush.s_timeline"
                            t-thumbnail="/theme_soroush/static/src/img/snippets/s_timeline.jpg"/>
 
                         <t t-snippet="theme_soroush.s_Discount"
                            t-thumbnail="/theme_soroush/static/src/img/snippets/s_comparison.jpg"/>
 
-                        <t t-snippet="theme_soroush.s_pricing"
-                           t-thumbnail="/theme_soroush/static/src/img/snippets/s_comparison.jpg"/>
                         <t t-snippet="theme_soroush.s_steps"
                            t-thumbnail="/theme_soroush/static/src/img/snippets/s_comparison.jpg"/>
                         <t t-snippet="theme_soroush.s_teams"
@@ -40,8 +35,8 @@
 
         <template id="s_gallary" name="s_gallary">
             <section>
-                <div class="o_panel_body">
-                    <div class="container">
+                <div class="container">
+
                         <div class="custom-gallery row mt16">
                             <div class="col-md-3 col-sm-4 col-xs-6 ">
                                 <img class="img-responsive"
@@ -84,42 +79,11 @@
                                      style="height: 175px; width: 300px;"/>
                             </div>
                         </div>
-                    </div>
+
                 </div>
             </section>
         </template>
-        <template id="s_slide_banne" name="s_slide_banne">
-            <section class="header_introduction">
-                <div class="row">
-                    <div class="container">
-                        <div class="col-md-7 text-left second-header-layout">
-                            <!-- HEADING AND BUTTONS -->
-                            <div id="intro-section" class="intro-section">
 
-                                <!-- WELCOM MESSAGE -->
-
-                                <h2 id="intro_section_text_1" class="intro white-text">Quisque convallis ex adum at
-                                    potumu et nulla tristitue.
-                                </h2>
-                                <h5 id="intro_section_text_2" class="white-text">Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit. Vestibulum porta diam facilisis mauris tristique commodo. Maecenas
-                                    egestas quam in nulla vestibulum eleid. Duis blandit quis lectus eget at umnas item.
-                                </h5>
-                                <button id="inpage_scroll_btn" class="btn btn-primary standard-button inpage-scroll">
-                                    Read more
-                                </button>                        <!-- /END BUTTON -->
-
-                            </div>
-                            <!-- /END HEADNING AND BUTTONS -->
-                        </div><!-- .col-md-12 or .col-md-7 -->
-                        <div class="col-md-5">
-                            <img class="slide_banne_image"
-                                 src="/theme_soroush/static/src/img/product/car/jaguar-f-type-coupe-2d-silber-2017.png"/>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </template>
         <template id="s_timeline" name="s_timeline">
             <section>
                 <div class="container">
@@ -353,295 +317,13 @@
                 </div>
             </section>
         </template>
-        <template id="s_pricing" name="s_pricing">
-            <section class="oe_snippet_body">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
 
-                            <!-- PRICE ITEM -->
-                            <div class="panel price panel-red">
-                                <div class="panel-heading  text-center">
-                                    <h3>PRO PLAN</h3>
-                                </div>
-                                <div class="panel-body text-center">
-                                    <p class="lead" style="font-size:40px">
-                                        <strong>$10 / month</strong>
-                                    </p>
-                                </div>
-                                <ul class="list-group list-group-flush text-center">
-                                    <li class="list-group-item">
-                                        <i class="icon-ok text-danger"></i>
-                                        Personal use
-                                    </li>
-                                    <li class="list-group-item">
-                                        <i class="icon-ok text-danger"></i>
-                                        Unlimited projects
-                                    </li>
-                                    <li class="list-group-item">
-                                        <i class="icon-ok text-danger"></i>
-                                        27/7 support
-                                    </li>
-                                </ul>
-                                <div class="panel-footer">
-                                    <a class="btn btn-lg btn-block btn-danger" href="#">BUY NOW!</a>
-                                </div>
-                            </div>
-                            <!-- /PRICE ITEM -->
-                        </div>
-
-                        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
-
-                            <!-- PRICE ITEM -->
-                            <div class="panel price panel-blue">
-                                <div class="panel-heading arrow_box text-center">
-                                    <h3>DEV PLAN</h3>
-                                </div>
-                                <div class="panel-body text-center">
-                                    <p class="lead" style="font-size:40px">
-                                        <strong>$20 / month</strong>
-                                    </p>
-                                </div>
-                                <ul class="list-group list-group-flush text-center">
-                                    <li class="list-group-item">
-                                        <i class="icon-ok text-info"></i>
-                                        Personal use
-                                    </li>
-                                    <li class="list-group-item">
-                                        <i class="icon-ok text-info"></i>
-                                        Unlimited projects
-                                    </li>
-                                    <li class="list-group-item">
-                                        <i class="icon-ok text-info"></i>
-                                        27/7 support
-                                    </li>
-                                </ul>
-                                <div class="panel-footer">
-                                    <a class="btn btn-lg btn-block btn-info" href="#">BUY NOW!</a>
-                                </div>
-                            </div>
-                            <!-- /PRICE ITEM -->
-
-
-                        </div>
-
-                        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
-
-                            <!-- PRICE ITEM -->
-                            <div class="panel price panel-green">
-                                <div class="panel-heading arrow_box text-center">
-                                    <h3>FREE PLAN</h3>
-                                </div>
-                                <div class="panel-body text-center">
-                                    <p class="lead" style="font-size:40px">
-                                        <strong>$0 / month</strong>
-                                    </p>
-                                </div>
-                                <ul class="list-group list-group-flush text-center">
-                                    <li class="list-group-item">
-                                        <i class="icon-ok text-success"></i>
-                                        Personal use
-                                    </li>
-                                    <li class="list-group-item">
-                                        <i class="icon-ok text-success"></i>
-                                        Unlimited projects
-                                    </li>
-                                    <li class="list-group-item">
-                                        <i class="icon-ok text-success"></i>
-                                        27/7 support
-                                    </li>
-                                </ul>
-                                <div class="panel-footer">
-                                    <a class="btn btn-lg btn-block btn-success" href="#">BUY NOW!</a>
-                                </div>
-                            </div>
-                            <!-- /PRICE ITEM -->
-
-
-                        </div>
-
-                        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
-
-                            <!-- PRICE ITEM -->
-                            <div class="panel price panel-grey">
-                                <div class="panel-heading arrow_box text-center">
-                                    <h3>FREE PLAN</h3>
-                                </div>
-                                <div class="panel-body text-center">
-                                    <p class="lead" style="font-size:40px">
-                                        <strong>$0 / month</strong>
-                                    </p>
-                                </div>
-                                <ul class="list-group list-group-flush text-center">
-                                    <li class="list-group-item">
-                                        <i class="icon-ok text-success"></i>
-                                        Personal use
-                                    </li>
-                                    <li class="list-group-item">
-                                        <i class="icon-ok text-success"></i>
-                                        Unlimited projects
-                                    </li>
-                                    <li class="list-group-item">
-                                        <i class="icon-ok text-success"></i>
-                                        27/7 support
-                                    </li>
-                                </ul>
-                                <div class="panel-footer">
-                                    <a class="btn btn-lg btn-block btn-primary" href="#">BUY NOW!</a>
-                                </div>
-                            </div>
-                            <!-- /PRICE ITEM -->
-
-
-                        </div>
-
-                        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
-
-                            <!-- PRICE ITEM -->
-                            <div class="panel price panel-white">
-                                <div class="panel-heading arrow_box text-center">
-                                    <h3>FREE PLAN</h3>
-                                </div>
-                                <div class="panel-body text-center">
-                                    <p class="lead" style="font-size:40px">
-                                        <strong>$0 / month</strong>
-                                    </p>
-                                </div>
-                                <ul class="list-group list-group-flush text-center">
-                                    <li class="list-group-item">
-                                        <i class="icon-ok text-success"></i>
-                                        Personal use
-                                    </li>
-                                    <li class="list-group-item">
-                                        <i class="icon-ok text-success"></i>
-                                        Unlimited projects
-                                    </li>
-                                    <li class="list-group-item">
-                                        <i class="icon-ok text-success"></i>
-                                        27/7 support
-                                    </li>
-                                </ul>
-                                <div class="panel-footer">
-                                    <a class="btn btn-lg btn-block btn-default" href="#">BUY NOW!</a>
-                                </div>
-                            </div>
-                            <!-- /PRICE ITEM -->
-
-
-                        </div>
-
-                        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
-
-                            <!-- PRICE ITEM -->
-                            <div class="panel price panel-white">
-                                <div class="panel-heading arrow_box text-center">
-                                    <h3>FREE PLAN</h3>
-                                </div>
-                                <div class="panel-body text-center">
-                                    <p class="lead" style="font-size:40px">
-                                        <strong>$0 / month</strong>
-                                    </p>
-                                </div>
-                                <ul class="list-group list-group-flush text-center">
-                                    <li class="list-group-item">
-                                        <i class="icon-ok text-success"></i>
-                                        Personal use
-                                    </li>
-                                    <li class="list-group-item">
-                                        <i class="icon-ok text-success"></i>
-                                        Unlimited projects
-                                    </li>
-                                    <li class="list-group-item">
-                                        <i class="icon-ok text-success"></i>
-                                        27/7 support
-                                    </li>
-                                </ul>
-                                <div class="panel-footer">
-                                    <a class="btn btn-lg btn-block btn-default" href="#">BUY NOW!</a>
-                                </div>
-                            </div>
-                            <!-- /PRICE ITEM -->
-
-
-                        </div>
-
-                        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
-
-                            <!-- PRICE ITEM -->
-                            <div class="panel price panel-white">
-                                <div class="panel-heading arrow_box text-center">
-                                    <h3>FREE PLAN</h3>
-                                </div>
-                                <div class="panel-body text-center">
-                                    <p class="lead" style="font-size:40px">
-                                        <strong>$0 / month</strong>
-                                    </p>
-                                </div>
-                                <ul class="list-group list-group-flush text-center">
-                                    <li class="list-group-item">
-                                        <i class="icon-ok text-success"></i>
-                                        Personal use
-                                    </li>
-                                    <li class="list-group-item">
-                                        <i class="icon-ok text-success"></i>
-                                        Unlimited projects
-                                    </li>
-                                    <li class="list-group-item">
-                                        <i class="icon-ok text-success"></i>
-                                        27/7 support
-                                    </li>
-                                </ul>
-                                <div class="panel-footer">
-                                    <a class="btn btn-lg btn-block btn-default" href="#">BUY NOW!</a>
-                                </div>
-                            </div>
-                            <!-- /PRICE ITEM -->
-
-
-                        </div>
-
-                        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
-
-                            <!-- PRICE ITEM -->
-                            <div class="panel price panel-white">
-                                <div class="panel-heading arrow_box text-center">
-                                    <h3>FREE PLAN</h3>
-                                </div>
-                                <div class="panel-body text-center">
-                                    <p class="lead" style="font-size:40px">
-                                        <strong>$0 / month</strong>
-                                    </p>
-                                </div>
-                                <ul class="list-group list-group-flush text-center">
-                                    <li class="list-group-item">
-                                        <i class="icon-ok text-success"></i>
-                                        Personal use
-                                    </li>
-                                    <li class="list-group-item">
-                                        <i class="icon-ok text-success"></i>
-                                        Unlimited projects
-                                    </li>
-                                    <li class="list-group-item">
-                                        <i class="icon-ok text-success"></i>
-                                        27/7 support
-                                    </li>
-                                </ul>
-                                <div class="panel-footer">
-                                    <a class="btn btn-lg btn-block btn-default" href="#">BUY NOW!</a>
-                                </div>
-                            </div>
-                            <!-- /PRICE ITEM -->
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </template>
 
         <template id="s_steps" name="s_steps">
             <section class="oe_snippet_body">
                 <div class="container">
-                    <div id="our_services_wrap" class="services-wrap azera_shop_grid azera_shop_grid_fbxxRO67Hk">
-                        <div class="azera_shop_grid_col_3 azera_shop_grid_column_1 azera_shop_grid_first ">
+                    <div id="our_services_wrap" class="row services-wrap azera_shop_grid azera_shop_grid_fbxxRO67Hk">
+                        <div class="col-md-4 col-xs-12 azera_shop_grid_column_1 azera_shop_grid_first ">
                             <div class="service-box" azera_shopgrid-attr="this-0">
                                 <div class="single-service border-bottom-hover">
                                     <div class="service-icon colored-text">
@@ -655,7 +337,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="azera_shop_grid_col_3 azera_shop_grid_column_2  ">
+                        <div class="col-md-4 col-xs-12 azera_shop_grid_column_2  ">
                             <div class="service-box" azera_shopgrid-attr="this-1">
                                 <div class="single-service border-bottom-hover">
                                     <div class="service-icon colored-text">
@@ -669,7 +351,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="azera_shop_grid_col_3 azera_shop_grid_column_3 azera_shop_grid_last ">
+                        <div class="col-md-4 col-xs-12 azera_shop_grid_column_3 azera_shop_grid_last ">
                             <div class="service-box" azera_shopgrid-attr="this-2">
                                 <div class="single-service border-bottom-hover">
                                     <div class="service-icon colored-text">
@@ -767,7 +449,7 @@
                         </div>
                         <div id="happy_customers_wrap"
                              class="testimonials-wrap azera_shop_grid azera_shop_grid_kyjFuj7m4s">
-                            <div class="azera_shop_grid_col_3 azera_shop_grid_column_1 azera_shop_grid_first ">
+                            <div class="col-md-4 col-xs-12 azera_shop_grid_column_1 azera_shop_grid_first ">
                                 <div class="testimonials-box" azera_shopgrid-attr="this-0">
                                     <div class="feedback border-bottom-hover">
                                         <div class="pic-container">
@@ -792,7 +474,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="azera_shop_grid_col_3 azera_shop_grid_column_2  ">
+                            <div class="col-md-4 col-xs-12 azera_shop_grid_column_2  ">
                                 <div class="testimonials-box" azera_shopgrid-attr="this-1">
                                     <div class="feedback border-bottom-hover">
                                         <div class="pic-container">
@@ -817,7 +499,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="azera_shop_grid_col_3 azera_shop_grid_column_3 azera_shop_grid_last ">
+                            <div class="col-md-4 col-xs-12 azera_shop_grid_column_3 azera_shop_grid_last ">
                                 <div class="testimonials-box" azera_shopgrid-attr="this-2">
                                     <div class="feedback border-bottom-hover">
                                         <div class="pic-container">

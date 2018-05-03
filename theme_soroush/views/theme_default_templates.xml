@@ -13,6 +13,13 @@
             <link href='https://fonts.googleapis.com/css?family=Trochut' rel='stylesheet'/>
         </xpath>
     </template>
+    <template id="Soroush_style_Common" name="Soroush_style_Common" inherit_id="website.assets_frontend" >
+        <xpath expr="//link[last()]" position="after">
+
+            <link rel="stylesheet" href='/theme_soroush/static/src/css/custom.css'/>
+
+        </xpath>
+    </template>
 
 
     <template id="soroush_header" inherit_id="website.layout" name="soroush Header">
@@ -32,8 +39,16 @@
                 <tr>
                     <td>
                         <label class="chd-color-combi">
+                            <div>
+                                Style 1
+                            </div>
+                            <input name="stylevar" type="radio" data-xmlid="theme_soroush.Soroush_style"/>
+                        </label>
+                    </td>
+                    <td>
+                        <label class="chd-color-combi">
 						<div>
-                            Style 1
+                            Style 2
 							</div>
                             <input name="stylevar" type="radio" data-xmlid="theme_soroush.Soroush_style_1"/>
                         </label>
@@ -41,7 +56,7 @@
                     <td>
                         <label class="chd-color-combi">
 						<div>
-                            Style 2
+                            Style 3
 							</div>
                             <input name="stylevar" type="radio" data-xmlid="theme_soroush.Soroush_style_2"/>
                         </label>
@@ -157,18 +172,30 @@
             </table>
         </xpath>
     </template>
+    <template id="Soroush_style" name="Soroush_style" inherit_id="website.assets_frontend" active="false"
+              customize_show="false">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" href='/theme_soroush/static/src/less/soroush_style.less'/>
+            <link rel="stylesheet" href='/theme_soroush/static/src/less/CommonStyle.less'/>
 
+
+
+        </xpath>
+    </template>
 
     <template id="Soroush_style_1" name="Soroush_style_1" inherit_id="website.assets_frontend" active="false"
               customize_show="false">
         <xpath expr="//link[last()]" position="after">
-            <link rel="stylesheet" href='/theme_soroush/static/src/less/soroush_style.less'/>
+            <link rel="stylesheet" href='/theme_soroush/static/src/less/soroush_style_1.less'/>
+            <link rel="stylesheet" href='/theme_soroush/static/src/less/CommonStyle.less'/>
+
         </xpath>
     </template>
     <template id="Soroush_style_2" name="Soroush_style_2" inherit_id="website.assets_frontend" active="False"
               customize_show="False">
         <xpath expr="//link[last()]" position="after">
             <link rel="stylesheet" href='/theme_soroush/static/src/less/soroush_style_2.less'/>
+            <link rel="stylesheet" href='/theme_soroush/static/src/less/CommonStyle.less'/>
         </xpath>
     </template>
     <!-- Option layout -->
