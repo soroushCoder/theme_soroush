@@ -3979,8 +3979,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
     margin-top: 8px;
     margin-right: 15px;
     margin-bottom: 8px;
-    background-color: transparent;
-    background-image: none;
+    background-color: white;
     border: 1px solid transparent;
     border-radius: 4px
 }
@@ -4183,7 +4182,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #ddd
+    background-color: #fff
 }
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #ccc
@@ -6164,5 +6163,11 @@ ul.wizard li .chevron{
     border-right: 0;
     border-left: 5px solid #d4d4d4;
 }
-
+#top_menu li a{
+    margin-left:10px;
+}
+#theme_customize_modal .modal-dialog{
+    max-width: 100%;
+    max-height: 100%;
+}
 
