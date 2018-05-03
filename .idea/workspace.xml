@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="590129ee-7924-4542-98d2-38fba87c5bcb" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/static/src/css/custom.css" afterPath="$PROJECT_DIR$/static/src/css/custom.css" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/static/src/less/CommonStyle.less" afterPath="$PROJECT_DIR$/static/src/less/CommonStyle.less" />
       <change beforePath="$PROJECT_DIR$/static/src/less/snippet.less" afterPath="$PROJECT_DIR$/static/src/less/snippet.less" />
       <change beforePath="$PROJECT_DIR$/static/src/less/soroush_style_1.less" afterPath="$PROJECT_DIR$/static/src/less/soroush_style_1.less" />
-      <change beforePath="$PROJECT_DIR$/static/src/less/soroush_style_2.less" afterPath="$PROJECT_DIR$/static/src/less/soroush_style_2.less" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -72,11 +72,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="snippet.less" pinned="false" current-in-tab="false">
+      <file leaf-file-name="snippet.less" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/static/src/less/snippet.less">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="142">
-              <caret line="40" column="21" lean-forward="false" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
+              <caret line="33" column="24" lean-forward="false" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -85,14 +85,24 @@
       <file leaf-file-name="soroush_style_1.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/src/less/soroush_style_1.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="1" column="34" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="34" />
+            <state relative-caret-position="194">
+              <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="custom.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CommonStyle.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/src/less/CommonStyle.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="205">
+              <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="custom.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/src/css/custom.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="158">
@@ -113,8 +123,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.pagination&gt;.active&gt;a</find>
-      <find>website.assets_frontend</find>
       <find>.navbar-default .navbar-nav&gt;li&gt;a</find>
       <find>.navbar-default .navbar-nav&gt;.active&gt;a</find>
       <find>option_color_emerald</find>
@@ -137,12 +145,14 @@
       <find>static/src/css/price-range.cs</find>
       <find>s_gallary</find>
       <find>.navbar-default .navbar-collapse, .navbar-default .navbar-form</find>
-      <find>.navbar-default .navbar-nav &gt; li &gt; a</find>
       <find>@m</find>
       <find>.o_main_navbar &gt; ul &gt; li &gt; a:hover</find>
-      <find>.section-header</find>
       <find>.navbar-default .navbar-toggle:hove</find>
       <find>.navbar-toggle</find>
+      <find>#theme_customize_modal .modal-dialog</find>
+      <find>.navbar-default .navbar-text, .navbar-default .navbar-nav &gt; li &gt; a, .oe_product_cart h5 a</find>
+      <find>.navbar-default .navbar-nav &gt; li &gt; a</find>
+      <find>.section-header</find>
     </findStrings>
     <replaceStrings>
       <replace>col-md-4 col-xs-12</replace>
@@ -155,15 +165,15 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/static/src/css/main.css" />
-        <option value="$PROJECT_DIR$/static/src/less/CommonStyle.less" />
         <option value="$PROJECT_DIR$/static/src/less/soroush_style.less" />
         <option value="$PROJECT_DIR$/static/src/less/option_font_Alex_Brush.less" />
         <option value="$PROJECT_DIR$/views/theme_default_templates.xml" />
         <option value="$PROJECT_DIR$/views/ecommerce_snippest_extra.xml" />
         <option value="$PROJECT_DIR$/static/src/less/soroush_style_2.less" />
+        <option value="$PROJECT_DIR$/static/src/css/custom.css" />
+        <option value="$PROJECT_DIR$/static/src/less/CommonStyle.less" />
         <option value="$PROJECT_DIR$/static/src/less/soroush_style_1.less" />
         <option value="$PROJECT_DIR$/static/src/less/snippet.less" />
-        <option value="$PROJECT_DIR$/static/src/css/custom.css" />
       </list>
     </option>
   </component>
@@ -173,7 +183,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="width" value="1388" />
     <option name="height" value="790" />
   </component>
@@ -286,15 +296,15 @@
       <workItem from="1519915000589" duration="31000" />
       <workItem from="1525175064970" duration="599000" />
       <workItem from="1525177370227" duration="16442000" />
-      <workItem from="1525346693617" duration="2354000" />
+      <workItem from="1525346693617" duration="2927000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19426000" />
+    <option name="totallyTimeSpent" value="19999000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1384" height="736" extended-state="6" />
+    <frame x="-9" y="-9" width="1384" height="736" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25036603" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -403,13 +413,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/src/less/CommonStyle.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/src/less/soroush_style.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
@@ -497,10 +500,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/static/src/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="6170" column="14" lean-forward="false" selection-start-line="6170" selection-start-column="14" selection-end-line="6170" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/static/src/less/soroush_style_1.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="34" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="34" />
+        <state relative-caret-position="194">
+          <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/src/less/CommonStyle.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
           <folding />
         </state>
       </provider>
@@ -508,15 +527,7 @@
     <entry file="file://$PROJECT_DIR$/static/src/less/snippet.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="142">
-          <caret line="40" column="21" lean-forward="false" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/src/css/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="6170" column="14" lean-forward="false" selection-start-line="6170" selection-start-column="14" selection-end-line="6170" selection-end-column="14" />
+          <caret line="33" column="24" lean-forward="false" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
           <folding />
         </state>
       </provider>
