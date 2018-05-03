@@ -15,8 +15,8 @@
         'views/ecommerce_snippest_extra.xml'
     ],
     'images': [
-        'static/description/cover.png',
-        'static/description/theme-soroush.jpg',
+        'static/description/cover.jpg'
+        
     ],
     'application': False,
 }
