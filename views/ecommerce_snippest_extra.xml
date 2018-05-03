@@ -35,8 +35,8 @@
 
         <template id="s_gallary" name="s_gallary">
             <section>
-                <div class="o_panel_body">
-                    <div class="container">
+                <div class="container">
+
                         <div class="custom-gallery row mt16">
                             <div class="col-md-3 col-sm-4 col-xs-6 ">
                                 <img class="img-responsive"
@@ -79,7 +79,7 @@
                                      style="height: 175px; width: 300px;"/>
                             </div>
                         </div>
-                    </div>
+
                 </div>
             </section>
         </template>
@@ -322,8 +322,8 @@
         <template id="s_steps" name="s_steps">
             <section class="oe_snippet_body">
                 <div class="container">
-                    <div id="our_services_wrap" class="services-wrap azera_shop_grid azera_shop_grid_fbxxRO67Hk">
-                        <div class="azera_shop_grid_col_3 azera_shop_grid_column_1 azera_shop_grid_first ">
+                    <div id="our_services_wrap" class="row services-wrap azera_shop_grid azera_shop_grid_fbxxRO67Hk">
+                        <div class="col-md-4 col-xs-12 azera_shop_grid_column_1 azera_shop_grid_first ">
                             <div class="service-box" azera_shopgrid-attr="this-0">
                                 <div class="single-service border-bottom-hover">
                                     <div class="service-icon colored-text">
@@ -337,7 +337,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="azera_shop_grid_col_3 azera_shop_grid_column_2  ">
+                        <div class="col-md-4 col-xs-12 azera_shop_grid_column_2  ">
                             <div class="service-box" azera_shopgrid-attr="this-1">
                                 <div class="single-service border-bottom-hover">
                                     <div class="service-icon colored-text">
@@ -351,7 +351,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="azera_shop_grid_col_3 azera_shop_grid_column_3 azera_shop_grid_last ">
+                        <div class="col-md-4 col-xs-12 azera_shop_grid_column_3 azera_shop_grid_last ">
                             <div class="service-box" azera_shopgrid-attr="this-2">
                                 <div class="single-service border-bottom-hover">
                                     <div class="service-icon colored-text">
@@ -449,7 +449,7 @@
                         </div>
                         <div id="happy_customers_wrap"
                              class="testimonials-wrap azera_shop_grid azera_shop_grid_kyjFuj7m4s">
-                            <div class="azera_shop_grid_col_3 azera_shop_grid_column_1 azera_shop_grid_first ">
+                            <div class="col-md-4 col-xs-12 azera_shop_grid_column_1 azera_shop_grid_first ">
                                 <div class="testimonials-box" azera_shopgrid-attr="this-0">
                                     <div class="feedback border-bottom-hover">
                                         <div class="pic-container">
@@ -474,7 +474,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="azera_shop_grid_col_3 azera_shop_grid_column_2  ">
+                            <div class="col-md-4 col-xs-12 azera_shop_grid_column_2  ">
                                 <div class="testimonials-box" azera_shopgrid-attr="this-1">
                                     <div class="feedback border-bottom-hover">
                                         <div class="pic-container">
@@ -499,7 +499,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="azera_shop_grid_col_3 azera_shop_grid_column_3 azera_shop_grid_last ">
+                            <div class="col-md-4 col-xs-12 azera_shop_grid_column_3 azera_shop_grid_last ">
                                 <div class="testimonials-box" azera_shopgrid-attr="this-2">
                                     <div class="feedback border-bottom-hover">
                                         <div class="pic-container">
