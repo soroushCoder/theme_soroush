@@ -18,9 +18,6 @@
             <link rel="stylesheet" href='/theme_soroush/static/src/css/responsive.css'/>
             <link rel="stylesheet" href='/theme_soroush/static/src/css/custom.css'/>
             <link rel="stylesheet" href='/theme_soroush/static/src/css/animate.css'/>
-            <link rel="stylesheet" href='/theme_soroush/static/src/css/price-range.css'/>
-
-
         </xpath>
     </template>
 
