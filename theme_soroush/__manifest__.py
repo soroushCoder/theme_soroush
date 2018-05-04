@@ -4,6 +4,7 @@
 {
     'name': 'Theme Soroush',
     'description': 'Soroush Website theme to customization possibilities.',
+	"summary": "Soroush Odoo 11.0 Website theme to customization possibilities",
     'category': 'Theme/Ecommerce',
     'version': '1.0',
     'depends': ['website','product', 'sale','website_sale','theme_default'],
