@@ -14,8 +14,9 @@
         'views/ecommerce_snippest_extra.xml'
     ],
     'images': [
+		
+        'static/description/cover.jpg',
 		'static/description/icon.png'
-        'static/description/cover.jpg'
         
     ],
     'application': False,
