@@ -3,9 +3,8 @@
 
 {
     'name': 'Theme Soroush',
-    'description': 'website theme to showcase customization possibilities.',
+    'description': 'Soroush Website theme to customization possibilities.',
     'category': 'Theme/Shoping',
-    'sequence': 1000,
     'version': '1.0',
     'depends': ['website','product', 'sale','website_sale','theme_default'],
 	'author':'Soroush Ebadi',
