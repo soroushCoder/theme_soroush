@@ -4,7 +4,7 @@
 {
     'name': 'Theme Soroush',
     'description': 'Soroush Website theme to customization possibilities.',
-    'category': 'Theme/Shoping',
+    'category': 'Theme/Ecommerce',
     'version': '1.0',
     'depends': ['website','product', 'sale','website_sale','theme_default'],
 	'author':'Soroush Ebadi',
@@ -14,6 +14,7 @@
         'views/ecommerce_snippest_extra.xml'
     ],
     'images': [
+		'static/description/icon.png'
         'static/description/cover.jpg'
         
     ],
